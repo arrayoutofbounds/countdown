@@ -1,7 +1,19 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body{
+	background-image: url("../public/mahantswami.jpg") ; 
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
 .App{
 	text-align: center;
 	font-size:35px;
 	margin-top: 20%;
+	color: white;
 }
 
 .App-title{

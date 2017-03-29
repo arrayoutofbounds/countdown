@@ -11,7 +11,7 @@ class App extends Component{
 		super(props);
 		// state is always an object
 		this.state = {
-			deadline: 'December 25, 2017',
+			deadline: 'July 28, 2017',
 			newDeadline: ''
 		}
 	}
@@ -24,7 +24,7 @@ class App extends Component{
 	render(){
 		return (
 			<div className="App">
-				<div className="App-title"> Countdown to {this.state.deadline} </div>
+				<div className="App-title"> Countdown to Mahant Swami in San Jose! </div>
 				<Clock 
 					deadline={this.state.deadline}
 				/>
